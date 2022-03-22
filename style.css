@@ -83,6 +83,10 @@ footer p{
     
 }
 
+footer img{
+    margin-left: 5%;
+}
+
 footer a {
     color: #fff;
 }
