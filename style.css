@@ -31,7 +31,6 @@ a{
     font-family: Avenir, sans-serif;
     padding: 0px;
     margin: 0px;
-    text-align: justify;
     box-sizing: border-box;
 }
 
@@ -44,6 +43,7 @@ body{
 p{
     font-size: 1em;
     line-height: 1.5em;
+    
 }
 
 a{
@@ -137,7 +137,7 @@ section > div {
     display: block;
     text-align: center;
     padding: 10px;
-    margin: 1àpx auto 30px auto;
+    margin: 10px auto 30px auto;
     color: #fff;
     background-color: #EA0;
     box-shadow: 0px 0px 10px #ccc;
@@ -273,7 +273,9 @@ section > div {
         width: 80%;
     }
 
-
+    p {
+        text-align: justify;
+    }
 .prez, .contact{
     flex: 0 0 45%;
 }
